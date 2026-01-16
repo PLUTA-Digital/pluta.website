@@ -28,31 +28,6 @@ export const siteConfig = {
   },
 
   // ============================================
-  // HERO SECTION
-  // ============================================
-  hero: {
-    headline: 'Intelligent AI Agents',
-    subheadline: 'Built for Your Business',
-    description:
-      'Transform your workflow with autonomous AI agents that handle complex tasks, learn from your data, and deliver results 24/7. No coding required.',
-    cta: {
-      primary: {
-        text: 'Get Started Free',
-        href: '#contact',
-      },
-      secondary: {
-        text: 'See How It Works',
-        href: '#how-it-works',
-      },
-    },
-    stats: [
-      { value: '10k+', label: 'Active Agents' },
-      { value: '99.9%', label: 'Uptime' },
-      { value: '5M+', label: 'Tasks Automated' },
-    ],
-  },
-
-  // ============================================
   // FEATURES SECTION
   // ============================================
   features: {
