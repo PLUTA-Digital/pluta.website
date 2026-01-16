@@ -1,5 +1,21 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-family: 'season';
+  src: url('/fonts/Season/VF/SeasonSansVF.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'season';
+  src: url('/fonts/Season/VF/SeasonSansVFItalics.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 @theme {
   --color-mono-black: #000000;
   --color-mono-darker: #171717;
@@ -9,7 +25,7 @@
   --color-mono-lighter: #e5e5e5;
   --color-mono-white: #ffffff;
 
-  --font-sans: Geist, system-ui, -apple-system, sans-serif;
+  --font-sans: season, system-ui, -apple-system, sans-serif;
 
   --animate-fade-in: fade-in 1200ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
   --animate-fade-up: fade-up 1400ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
