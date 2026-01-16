@@ -7,8 +7,8 @@ export const siteConfig = {
   // SITE METADATA
   // ============================================
   site: {
-    name: 'AI Agent Platform',
-    email: 'hello@aiagentplatform.com',
+    name: 'LiquiTool',
+    email: 'liquitool@pluta.net',
   },
 
   // ============================================
