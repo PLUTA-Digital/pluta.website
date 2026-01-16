@@ -17,13 +17,13 @@
 }
 
 @theme {
-  --color-mono-black: #000000;
-  --color-mono-darker: #171717;
-  --color-mono-dark: #404040;
-  --color-mono-gray: #737373;
-  --color-mono-light: #a3a3a3;
-  --color-mono-lighter: #e5e5e5;
-  --color-mono-white: #ffffff;
+  --color-mono-black: #3C5990; /* PLUTA Blau 600 */
+  --color-mono-darker: #283C60; /* PLUTA Blau 700 */
+  --color-mono-dark: #232323; /* PLUTA Neutral 900 */
+  --color-mono-gray: #3A3D41; /* PLUTA Neutral 800 */
+  --color-mono-light: #F7F8F9; /* Pluta Neutral 200 */
+  --color-mono-lighter: #FCFCFD; /* Pluta Neutral 200 */
+  --color-mono-white: #ffffff; /* White */
 
   --font-sans: season, system-ui, -apple-system, sans-serif;
 
