@@ -1,56 +1,56 @@
 export const featuresContent = [
   {
-    icon: 'lightning',
-    title: 'Autonomous Execution',
+    icon: 'chart',
+    title: 'Liquiditätsplanung',
     description:
-      'AI agents that understand context, make decisions, and execute tasks without constant supervision.',
+      'Direkte Liquiditätsplanung in Wochen- oder Monatssicht mit automatischer Berechnung und Periodisierung der Zahlungsströme.',
   },
   {
     icon: 'code',
-    title: 'Smart Integration',
+    title: 'Offene-Posten-Planung',
     description:
-      'Seamlessly connect with your tools: Slack, email, databases, APIs, and 1000+ platforms.',
-  },
-  {
-    icon: 'chart',
-    title: 'Real-Time Analytics',
-    description:
-      'Monitor performance, track success rates, and optimize workflows with detailed insights.',
-  },
-  {
-    icon: 'chat',
-    title: 'Natural Language',
-    description:
-      'Configure agents using plain English. No complex programming or technical expertise required.',
-  },
-  {
-    icon: 'shield',
-    title: 'Enterprise Security',
-    description:
-      'Bank-level encryption, SOC 2 compliance, and complete data privacy. Your data stays secure.',
-  },
-  {
-    icon: 'clock',
-    title: '24/7 Operation',
-    description:
-      'Agents work around the clock, handling tasks while you sleep. Reliable uptime guaranteed.',
-  },
-  {
-    icon: 'brush',
-    title: 'Custom Workflows',
-    description:
-      'Build tailored automation flows that match your unique business processes and requirements.',
+      'Automatisierter Import und Planung von Debitoren und Kreditoren mit individuellen Risikoabschlägen und Zahlungsverhalten.',
   },
   {
     icon: 'layers',
-    title: 'Multi-Agent Teams',
+    title: 'GuV-Planung als Basis',
     description:
-      'Coordinate multiple specialized agents working together to solve complex, multi-step challenges.',
+      'Integrierte Gewinn- und Verlustrechnung mit automatischer Überleitung von Erträgen und Aufwendungen zu Zahlungsströmen.',
   },
   {
     icon: 'zap',
-    title: 'Instant Scaling',
+    title: 'Automatisierte Überleitung',
     description:
-      'Scale from 1 to 1000+ agents instantly. Handle peak loads without infrastructure headaches.',
+      'Saubere Überleitung von GuV-Ergebnissen zur Liquiditätsplanung. Berechnungen erfolgen automatisch im Hintergrund.',
+  },
+  {
+    icon: 'brush',
+    title: 'Szenario- und Vergleichsrechnungen',
+    description:
+      'Plan-Plan- und Plan-Ist-Vergleiche sowie Szenarioanalysen für fundierte Entscheidungen in der Liquiditätssteuerung.',
+  },
+  {
+    icon: 'shield',
+    title: 'Lokale Anwendung',
+    description:
+      'Alle Daten verbleiben auf Ihrer Infrastruktur. Keine Cloud, keine externe Datenspeicherung – maximaler Datenschutz.',
+  },
+  {
+    icon: 'clock',
+    title: 'Schnelle Implementierung',
+    description:
+      'Einsatzfähig innerhalb eines Tages. Intuitive Benutzeroberfläche und einheitliche Planungslogik für sofortige Nutzung.',
+  },
+  {
+    icon: 'lightning',
+    title: 'Transparente Darstellung',
+    description:
+      'Klare Überleitung von GuV zur Liquiditätsplanung mit nachvollziehbaren Änderungen und transparenten Prämissen.',
+  },
+  {
+    icon: 'chat',
+    title: 'Flexible Detailtiefe',
+    description:
+      'Struktur und Granularität individuell anpassbar – von Gesamtebene bis hin zu einzelnen Rechnungen und Konten.',
   },
 ];

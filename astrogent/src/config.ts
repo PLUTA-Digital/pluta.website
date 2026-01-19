@@ -31,19 +31,19 @@ export const siteConfig = {
   // FEATURES SECTION
   // ============================================
   features: {
-    title: 'Powerful Capabilities',
+    title: 'Kernfunktionalitäten',
     subtitle:
-      'Everything you need to build, deploy, and scale intelligent automation',
+      'Strukturierte, transparente und robuste Liquiditätsplanung – die Alternative zu fehleranfälligen Excel-Modellen',
     items: [
-      { icon: 'lightning', title: 'Autonomous Execution' },
-      { icon: 'code', title: 'Smart Integration' },
-      { icon: 'chart', title: 'Real-Time Analytics' },
-      { icon: 'chat', title: 'Natural Language' },
-      { icon: 'shield', title: 'Enterprise Security' },
-      { icon: 'clock', title: '24/7 Operation' },
-      { icon: 'brush', title: 'Custom Workflows' },
-      { icon: 'layers', title: 'Multi-Agent Teams' },
-      { icon: 'zap', title: 'Instant Scaling' },
+      { icon: 'chart', title: 'Liquiditätsplanung' },
+      { icon: 'code', title: 'Offene-Posten-Planung' },
+      { icon: 'layers', title: 'GuV-Planung als Basis' },
+      { icon: 'zap', title: 'Automatisierte Überleitung' },
+      { icon: 'brush', title: 'Szenario- und Vergleichsrechnungen' },
+      { icon: 'shield', title: 'Lokale Anwendung' },
+      { icon: 'clock', title: 'Schnelle Implementierung' },
+      { icon: 'lightning', title: 'Transparente Darstellung' },
+      { icon: 'chat', title: 'Flexible Detailtiefe' },
     ],
   },
 
