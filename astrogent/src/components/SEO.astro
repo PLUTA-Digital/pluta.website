@@ -1,24 +1,77 @@
 ---
+interface Props {
+  title?: string;
+  description?: string;
+  canonical?: string;
+  ogImage?: string;
+}
+
+const {
+  title = 'PLUTA LiquiTool - Professionelle Liquiditätsplanung ohne Excel',
+  description = 'Strukturierte, transparente und robuste Liquiditätsplanung – die Alternative zu fehleranfälligen Excel-Modellen. Lokale Anwendung, schnelle Implementierung, einsatzfähig innerhalb eines Tages.',
+  canonical = 'https://liquitool.pluta.net',
+  ogImage = 'https://liquitool.pluta.net/og-image.png',
+} = Astro.props;
+
+const fullTitle = title.includes('PLUTA LiquiTool') ? title : `${title} | PLUTA LiquiTool`;
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "PLUTA LiquiTool",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Windows",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  },
+  "description": description,
+  "provider": {
+    "@type": "Organization",
+    "name": "PLUTA Digital GmbH",
+    "url": "https://www.pluta.net",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Radlkoferstraße 2",
+      "addressLocality": "München",
+      "postalCode": "81373",
+      "addressCountry": "DE"
+    }
+  }
+};
 ---
 
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="canonical" href={canonical} />
+<link rel="alternate" hreflang="de" href={canonical} />
 
-<title>PLUTA LiquiTool - Professionelle Liquiditätsplanung ohne Excel</title>
-<meta name="description" content="Strukturierte, transparente und robuste Liquiditätsplanung – die Alternative zu fehleranfälligen Excel-Modellen. Lokale Anwendung, schnelle Implementierung, einsatzfähig innerhalb eines Tages." />
-<meta name="keywords" content="Liquiditätsplanung, Liquiditätsplanung Software, Controlling Tool, Excel Alternative, Cashflow Planung, GuV Planung, PLUTA LiquiTool, Liquiditätssteuerung, Szenarioplanung" />
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<meta name="keywords" content="Liquiditätsplanung, Liquiditätsplanung Software, Controlling Tool, Excel Alternative, Cashflow Planung, GuV Planung, PLUTA LiquiTool, Liquiditätssteuerung, Szenarioplanung, Liquiditätsplanung Windows, Liquiditätsplanung Tool, Cashflow Management" />
+<meta name="author" content="PLUTA Digital GmbH" />
+<meta name="robots" content="index, follow" />
+<meta name="language" content="de" />
 
-<meta property="og:title" content="PLUTA LiquiTool - Professionelle Liquiditätsplanung" />
-<meta property="og:description" content="Ersetzen Sie fehleranfällige Excel-Modelle durch professionelle Liquiditätsplanung. Lokale Anwendung, schnelle Implementierung, kontinuierliche Weiterentwicklung." />
+<!-- Open Graph -->
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={description} />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://liquitool.pluta.net" />
-<meta property="og:image" content="/og-image.png" />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="PLUTA LiquiTool - Professionelle Liquiditätsplanung" />
+<meta property="og:locale" content="de_DE" />
+<meta property="og:site_name" content="PLUTA LiquiTool" />
 
+<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="PLUTA LiquiTool - Professionelle Liquiditätsplanung" />
-<meta name="twitter:description" content="Strukturierte, transparente und robuste Liquiditätsplanung – die Alternative zu fehleranfälligen Excel-Modellen." />
-<meta name="twitter:image" content="/impressions.png" />
+<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+<!-- Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
 
