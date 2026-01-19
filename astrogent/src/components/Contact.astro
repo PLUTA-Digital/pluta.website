@@ -1,5 +1,4 @@
 ---
-import { siteConfig } from '../config.ts';
 import { Icon } from 'astro-icon/components';
 ---
 
@@ -8,33 +7,50 @@ import { Icon } from 'astro-icon/components';
     <div class="grid grid-cols-1 items-start gap-12 lg:grid-cols-2">
       <div class="scroll-fade-left">
         <h2 class="text-mono-black mb-6 text-4xl font-bold sm:text-5xl">
-          {siteConfig.contact.title}
+          Starten Sie noch heute
         </h2>
         <p class="text-mono-dark mb-8 text-xl leading-relaxed">
-          {siteConfig.contact.subtitle}
+          Ersetzen Sie fehleranfällige Excel-Modelle durch professionelle Liquiditätsplanung. Einsatzbereit innerhalb eines Tages.
         </p>
 
         <ul class="mb-8 space-y-4">
-          {
-            siteConfig.contact.benefits.map((benefit) => (
-              <li class="flex items-center">
-                <Icon
-                  name="heroicons:check"
-                  class="text-mono-black mr-4 h-6 w-6 flex-shrink-0"
-                />
-                <span class="text-mono-dark">{benefit}</span>
-              </li>
-            ))
-          }
+          <li class="flex items-center">
+            <Icon
+              name="heroicons:check"
+              class="text-mono-black mr-4 h-6 w-6 flex-shrink-0"
+            />
+            <span class="text-mono-dark">Lokale Installation – Ihre Daten bleiben bei Ihnen</span>
+          </li>
+          <li class="flex items-center">
+            <Icon
+              name="heroicons:check"
+              class="text-mono-black mr-4 h-6 w-6 flex-shrink-0"
+            />
+            <span class="text-mono-dark">Schnelle Implementierung – einsatzfähig innerhalb eines Tages</span>
+          </li>
+          <li class="flex items-center">
+            <Icon
+              name="heroicons:check"
+              class="text-mono-black mr-4 h-6 w-6 flex-shrink-0"
+            />
+            <span class="text-mono-dark">Individuelle Anpassungen möglich</span>
+          </li>
+          <li class="flex items-center">
+            <Icon
+              name="heroicons:check"
+              class="text-mono-black mr-4 h-6 w-6 flex-shrink-0"
+            />
+            <span class="text-mono-dark">Kontinuierliche Weiterentwicklung durch planungserfahrene Berater</span>
+          </li>
         </ul>
 
         <div class="border-mono-light border-t pt-8">
           <p class="text-mono-gray mb-4 text-sm">
-            Questions? Reach out to our team:
+            Fragen? Kontaktieren Sie unser Team:
           </p>
           <a
-            href={`mailto:${siteConfig.contact.email}`}
-            class="text-mono-black font-semibold">{siteConfig.contact.email}</a
+            href="mailto:liquitool@pluta.net"
+            class="text-mono-black font-semibold">liquitool@pluta.net</a
           >
         </div>
       </div>
@@ -47,15 +63,15 @@ import { Icon } from 'astro-icon/components';
             <label
               for="name"
               class="text-mono-black mb-2 block text-sm font-semibold"
-              >{siteConfig.contact.form.fields.name.label}</label
+              >Name</label
             >
             <input
               type="text"
               id="name"
               name="name"
-              required={siteConfig.contact.form.fields.name.required}
+              required
               class="border-mono-lighter w-full rounded-lg border px-4 py-3"
-              placeholder={siteConfig.contact.form.fields.name.placeholder}
+              placeholder="Max Mustermann"
             />
           </div>
 
@@ -63,15 +79,15 @@ import { Icon } from 'astro-icon/components';
             <label
               for="email"
               class="text-mono-black mb-2 block text-sm font-semibold"
-              >{siteConfig.contact.form.fields.email.label}</label
+              >E-Mail-Adresse</label
             >
             <input
               type="email"
               id="email"
               name="email"
-              required={siteConfig.contact.form.fields.email.required}
+              required
               class="border-mono-lighter w-full rounded-lg border px-4 py-3"
-              placeholder={siteConfig.contact.form.fields.email.placeholder}
+              placeholder="max.mustermann@unternehmen.de"
             />
           </div>
 
@@ -79,14 +95,14 @@ import { Icon } from 'astro-icon/components';
             <label
               for="company"
               class="text-mono-black mb-2 block text-sm font-semibold"
-              >{siteConfig.contact.form.fields.company.label}</label
+              >Unternehmen</label
             >
             <input
               type="text"
               id="company"
               name="company"
               class="border-mono-lighter w-full rounded-lg border px-4 py-3"
-              placeholder={siteConfig.contact.form.fields.company.placeholder}
+              placeholder="Ihr Unternehmen"
             />
           </div>
 
@@ -94,14 +110,14 @@ import { Icon } from 'astro-icon/components';
             <label
               for="message"
               class="text-mono-black mb-2 block text-sm font-semibold"
-              >{siteConfig.contact.form.fields.message.label}</label
+              >Nachricht</label
             >
             <textarea
               id="message"
               name="message"
               rows="4"
               class="form-input border-mono-lighter w-full resize-none rounded-lg border px-4 py-3"
-              placeholder={siteConfig.contact.form.fields.message.placeholder}
+              placeholder="Erzählen Sie uns von Ihren Anforderungen an die Liquiditätsplanung..."
             ></textarea>
           </div>
 
@@ -109,13 +125,13 @@ import { Icon } from 'astro-icon/components';
             type="submit"
             class="bg-mono-black w-full rounded-lg px-6 py-4 font-semibold text-white shadow-lg"
           >
-            {siteConfig.contact.form.cta}
+            Anfrage senden
           </button>
 
           <p class="text-mono-gray text-center text-xs leading-relaxed">
-            By submitting this form, you agree to our
-            <a href="#" class="underline">Terms of Service</a> and
-            <a href="#" class="underline">Privacy Policy</a>
+            Mit dem Absenden dieses Formulars stimmen Sie unseren
+            <a href="#" class="underline">Nutzungsbedingungen</a> und der
+            <a href="#" class="underline">Datenschutzerklärung</a> zu.
           </p>
         </form>
       </div>
@@ -125,11 +141,11 @@ import { Icon } from 'astro-icon/components';
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    const contactForm = document.getElementById('contactForm');
+    const contactForm = document.getElementById('contactForm') as HTMLFormElement;
     if (contactForm) {
       contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        alert('Thank you for your message! We will get back to you soon.');
+        alert('Vielen Dank für Ihre Nachricht! Wir werden uns bald bei Ihnen melden.');
         contactForm.reset();
       });
     }

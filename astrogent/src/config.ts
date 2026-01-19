@@ -27,47 +27,6 @@ export const siteConfig = {
   },
 
   // ============================================
-  // CONTACT
-  // ============================================
-  contact: {
-    title: 'Start Building Today',
-    subtitle:
-      'Join thousands of teams using AI agents to automate their workflows. Get started in minutes with our free tier.',
-    benefits: [
-      'No credit card required',
-      'Setup in under 5 minutes',
-      'Cancel anytime',
-      '24/7 customer support',
-    ],
-    email: 'hello@aiagentplatform.com',
-    form: {
-      cta: 'Get Started Free',
-      fields: {
-        name: {
-          label: 'Full Name',
-          placeholder: 'John Doe',
-          required: true,
-        },
-        email: {
-          label: 'Work Email',
-          placeholder: 'john@company.com',
-          required: true,
-        },
-        company: {
-          label: 'Company',
-          placeholder: 'Your Company Inc.',
-          required: false,
-        },
-        message: {
-          label: 'What would you like to automate?',
-          placeholder: 'Tell us about your workflow and automation needs...',
-          required: false,
-        },
-      },
-    },
-  },
-
-  // ============================================
   // FOOTER
   // ============================================
   footer: {
