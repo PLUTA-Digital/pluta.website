@@ -1,0 +1,64 @@
+---
+import '../styles/globals.css';
+import SEO from '../components/SEO.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<!doctype html>
+<html lang="de" class="scroll-smooth">
+  <head>
+    <SEO />
+  </head>
+
+  <body class="text-mono-black bg-white font-sans antialiased">
+    <Navigation />
+    
+    <section class="relative bg-white px-4 py-20 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-3xl text-center">
+        <div class="mb-8">
+          <svg
+            class="mx-auto h-16 w-16 text-green-500"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+        </div>
+        
+        <h1 class="text-mono-black mb-4 text-4xl font-bold sm:text-5xl">
+          Vielen Dank für Ihre Anfrage!
+        </h1>
+        
+        <p class="text-mono-dark mb-8 text-xl leading-relaxed">
+          Wir haben Ihre Nachricht erhalten und werden uns in Kürze bei Ihnen melden.
+        </p>
+        
+        <p class="text-mono-dark mb-8 leading-relaxed">
+          Unser Team prüft Ihre Anfrage und wird sich innerhalb der nächsten Werktage bei Ihnen melden. 
+          Bei dringenden Anliegen können Sie uns auch direkt unter 
+          <a href="mailto:liquitool@pluta.net" class="text-mono-black font-semibold underline">
+            liquitool@pluta.net
+          </a> kontaktieren.
+        </p>
+        
+        <div class="mt-12">
+          <a
+            href="/"
+            class="bg-mono-black inline-block rounded-lg px-6 py-3 font-semibold text-white shadow-lg hover:bg-opacity-90"
+          >
+            Zurück zur Startseite
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <Footer />
+  </body>
+</html>
