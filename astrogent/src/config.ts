@@ -15,13 +15,16 @@ export const siteConfig = {
   // NAVIGATION
   // ============================================
   navigation: {
-    links: [
+    links: [      
+      { name: 'Screenshots', href: '#carousel' },
+      { name: 'So funktioniert\'s', href: '#how-it-works' },
+      { name: 'Vergleich', href: '#comparison' },
       { name: 'Features', href: '#features' },
-      { name: 'How It Works', href: '#how-it-works' },
+      { name: 'Referenzen', href: '#testimonials' },
       { name: 'FAQ', href: '#faq' },
     ],
     cta: {
-      text: 'Get Started',
+      text: 'Kontakt',
       href: '#contact',
     },
   },
