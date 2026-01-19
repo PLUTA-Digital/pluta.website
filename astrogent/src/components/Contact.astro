@@ -10,48 +10,87 @@ import { Icon } from 'astro-icon/components';
           Starten Sie noch heute
         </h2>
         <p class="text-mono-dark mb-8 text-xl leading-relaxed">
-          Ersetzen Sie fehleranfällige Excel-Modelle durch professionelle Liquiditätsplanung. Einsatzbereit innerhalb eines Tages.
+          Haben Sie Fragen zum PLUTA LiquiTool oder benötigen Sie eine individuelle Beratung? Unsere Berater stehen Ihnen gerne zur Verfügung.
         </p>
 
-        <ul class="mb-8 space-y-4">
-          <li class="flex items-center">
-            <Icon
-              name="heroicons:check"
-              class="text-mono-black mr-4 h-6 w-6 flex-shrink-0"
-            />
-            <span class="text-mono-dark">Lokale Installation – Ihre Daten bleiben bei Ihnen</span>
-          </li>
-          <li class="flex items-center">
-            <Icon
-              name="heroicons:check"
-              class="text-mono-black mr-4 h-6 w-6 flex-shrink-0"
-            />
-            <span class="text-mono-dark">Schnelle Implementierung – einsatzfähig innerhalb eines Tages</span>
-          </li>
-          <li class="flex items-center">
-            <Icon
-              name="heroicons:check"
-              class="text-mono-black mr-4 h-6 w-6 flex-shrink-0"
-            />
-            <span class="text-mono-dark">Individuelle Anpassungen möglich</span>
-          </li>
-          <li class="flex items-center">
-            <Icon
-              name="heroicons:check"
-              class="text-mono-black mr-4 h-6 w-6 flex-shrink-0"
-            />
-            <span class="text-mono-dark">Kontinuierliche Weiterentwicklung durch planungserfahrene Berater</span>
-          </li>
-        </ul>
+        <div class="space-y-6">
+          <!-- Visitenkarte 1: Simon Eickmann -->
+          <div class="border-mono-lighter rounded-xl border bg-white p-6 shadow-md">
+            <div class="flex gap-4">
+              <div class="flex-shrink-0">
+                <img
+                  src="/contact/simon.jpg"
+                  alt="Simon Eickmann"
+                  class="h-20 w-20 rounded-full object-cover"
+                />
+              </div>
+              <div class="flex-1">
+                <div class="text-mono-black mb-1 text-lg font-bold">
+                  Simon Eickmann
+                </div>
+                <div class="text-mono-dark mb-2 text-sm">
+                  Geschäftsführer
+                </div>
+                <div class="text-mono-black mb-2 text-sm font-semibold">
+                  PLUTA Digital GmbH
+                </div>
+                <div class="text-mono-dark mb-2 text-sm">
+                  Radlkoferstraße 2 - 81373 München
+                </div>
+                <div class="text-mono-dark mb-1 text-sm">
+                  Telefon: +49 89 24413337-0
+                </div>
+                <div class="text-mono-dark mb-1 text-sm">
+                  Mobil: +49 151 51616301
+                </div>
+                <a
+                  href="mailto:simon.eickmann@pluta.net"
+                  class="text-mono-black text-sm font-semibold hover:underline"
+                >
+                  simon.eickmann@pluta.net
+                </a>
+              </div>
+            </div>
+          </div>
 
-        <div class="border-mono-light border-t pt-8">
-          <p class="text-mono-gray mb-4 text-sm">
-            Fragen? Kontaktieren Sie unser Team:
-          </p>
-          <a
-            href="mailto:liquitool@pluta.net"
-            class="text-mono-black font-semibold">liquitool@pluta.net</a
-          >
+          <!-- Visitenkarte 2: Heinz-Joachim Hombach -->
+          <div class="border-mono-lighter rounded-xl border bg-white p-6 shadow-md">
+            <div class="flex gap-4">
+              <div class="flex-shrink-0">
+                <img
+                  src="/contact/hj.jpg"
+                  alt="Heinz-Joachim Hombach"
+                  class="h-20 w-20 rounded-full object-cover"
+                />
+              </div>
+              <div class="flex-1">
+                <div class="text-mono-black mb-1 text-lg font-bold">
+                  Heinz-Joachim Hombach
+                </div>
+                <div class="text-mono-dark mb-2 text-sm">
+                  Geschäftsführer
+                </div>
+                <div class="text-mono-black mb-2 text-sm font-semibold">
+                  PLUTA Digital GmbH
+                </div>
+                <div class="text-mono-dark mb-2 text-sm">
+                  Radlkoferstraße 2 - 81373 München
+                </div>
+                <div class="text-mono-dark mb-1 text-sm">
+                  Telefon: +49 89 24413337-0
+                </div>
+                <div class="text-mono-dark mb-1 text-sm">
+                  Mobil: +49 171 8194276
+                </div>
+                <a
+                  href="mailto:heinz-joachim.hombach@pluta.net"
+                  class="text-mono-black text-sm font-semibold hover:underline"
+                >
+                  heinz-joachim.hombach@pluta.net
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -68,7 +107,7 @@ import { Icon } from 'astro-icon/components';
             <input
               type="text"
               id="name"
-              name="name"
+              name="name"              
               required
               class="border-mono-lighter w-full rounded-lg border px-4 py-3"
               placeholder="Max Mustermann"
