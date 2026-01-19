@@ -1,0 +1,291 @@
+---
+import '../styles/globals.css';
+import SEO from '../components/SEO.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<!doctype html>
+<html lang="de" class="scroll-smooth">
+  <head>
+    <SEO />
+  </head>
+
+  <body class="text-mono-black bg-white font-sans antialiased">
+    <Navigation />
+    
+    <section class="relative bg-white px-4 py-20 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-4xl">
+        <!-- Impressum -->
+        <div id="impressum" class="mb-16 scroll-mt-20">
+          <h1 class="text-mono-black mb-8 text-4xl font-bold sm:text-5xl">
+            Impressum
+          </h1>
+          
+          <div class="text-mono-dark space-y-4 leading-relaxed">
+            <div>
+              <h2 class="text-mono-black mb-2 text-xl font-semibold">
+                Angaben gemäß § 5 TMG
+              </h2>
+              <p>
+                PLUTA Digital GmbH<br />
+                Radlkoferstraße 2<br />
+                81373 München<br />
+                Deutschland
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-2 text-xl font-semibold">
+                Geschäftsführer
+              </h2>
+              <p>
+                Simon Eickmann<br />
+                Heinz-Joachim Hombach
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-2 text-xl font-semibold">
+                Kontakt
+              </h2>
+              <p>
+                Telefon: +49 89 24413337-0<br />
+                E-Mail: <a href="mailto:liquitool@pluta.net" class="text-mono-black font-semibold underline">liquitool@pluta.net</a>
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-2 text-xl font-semibold">
+                Registereintrag
+              </h2>
+              <p>
+                Eintragung im Handelsregister.<br />
+                Registergericht: Amtsgericht München<br />
+                Registernummer: HRB 289887
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-2 text-xl font-semibold">
+                Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
+              </h2>
+              <p>
+                Simon Eickmann<br />
+                PLUTA Digital GmbH<br />
+                Radlkoferstraße 2<br />
+                81373 München<br />
+                Deutschland
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Nutzungsbedingungen -->
+        <div id="nutzungsbedingungen" class="mb-16 scroll-mt-20 border-t-2 border-mono-lighter pt-16">
+          <h1 class="text-mono-black mb-8 text-4xl font-bold sm:text-5xl">
+            Nutzungsbedingungen
+          </h1>
+          
+          <div class="text-mono-dark space-y-6 leading-relaxed">
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                1. Geltungsbereich
+              </h2>
+              <p>
+                Diese Nutzungsbedingungen gelten für die Nutzung der Website und der angebotenen Dienste 
+                der PLUTA Digital GmbH. Mit der Nutzung unserer Website erkennen Sie diese Bedingungen an.
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                2. Vertragspartner
+              </h2>
+              <p>
+                Vertragspartner ist die PLUTA Digital GmbH, Radlkoferstraße 2, 81373 München, Deutschland.
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                3. Leistungsbeschreibung
+              </h2>
+              <p>
+                Die PLUTA Digital GmbH bietet über diese Website Informationen zum PLUTA LiquiTool an. 
+                Die Nutzung der Software erfolgt gemäß den jeweiligen Lizenzbedingungen.
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                4. Nutzungsrechte
+              </h2>
+              <p>
+                Die Inhalte dieser Website sind urheberrechtlich geschützt. Eine Vervielfältigung, 
+                Verbreitung oder sonstige Nutzung bedarf der vorherigen schriftlichen Zustimmung der 
+                PLUTA Digital GmbH.
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                5. Haftungsausschluss
+              </h2>
+              <p>
+                Die PLUTA Digital GmbH übernimmt keine Gewähr für die Aktualität, Richtigkeit, 
+                Vollständigkeit oder Qualität der bereitgestellten Informationen. Haftungsansprüche 
+                gegen die PLUTA Digital GmbH, die sich auf Schäden materieller oder ideeller Art beziehen, 
+                welche durch die Nutzung oder Nichtnutzung der dargebotenen Informationen verursacht wurden, 
+                sind grundsätzlich ausgeschlossen, sofern seitens der PLUTA Digital GmbH kein nachweislich 
+                vorsätzliches oder grob fahrlässiges Verschulden vorliegt.
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                6. Links zu anderen Websites
+              </h2>
+              <p>
+                Unsere Website kann Links zu externen Websites Dritter enthalten. Für die Inhalte 
+                dieser externen Websites übernehmen wir keine Verantwortung.
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                7. Änderungen der Nutzungsbedingungen
+              </h2>
+              <p>
+                Die PLUTA Digital GmbH behält sich vor, diese Nutzungsbedingungen jederzeit zu ändern. 
+                Die geänderten Bedingungen werden auf dieser Seite veröffentlicht.
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                8. Schlussbestimmungen
+              </h2>
+              <p>
+                Sollten einzelne Bestimmungen dieser Nutzungsbedingungen unwirksam sein oder werden, 
+                bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. Es gilt deutsches Recht 
+                unter Ausschluss des UN-Kaufrechts.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Datenschutzerklärung -->
+        <div id="datenschutz" class="mb-16 scroll-mt-20 border-t-2 border-mono-lighter pt-16">
+          <h1 class="text-mono-black mb-8 text-4xl font-bold sm:text-5xl">
+            Datenschutzerklärung
+          </h1>
+          
+          <div class="text-mono-dark space-y-6 leading-relaxed">
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                1. Verantwortlicher
+              </h2>
+              <p>
+                Verantwortlicher für die Datenverarbeitung auf dieser Website ist die PLUTA Digital GmbH, 
+                Radlkoferstraße 2, 81373 München, Deutschland. 
+                E-Mail: liquitool@pluta.net
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                2. Datenerhebung und -speicherung
+              </h2>
+              <p>
+                Beim Besuch unserer Website werden durch den auf Ihrem Endgerät zum Einsatz kommenden 
+                Browser automatisch Informationen an den Server unserer Website gesendet. Diese Informationen 
+                werden temporär in einem sogenannten Logfile gespeichert. Folgende Informationen werden dabei 
+                ohne Ihr Zutun erfasst und bis zur automatisierten Löschung gespeichert:
+              </p>
+              <ul class="ml-6 mt-2 list-disc space-y-2">
+                <li>IP-Adresse des anfragenden Rechners</li>
+                <li>Datum und Uhrzeit des Zugriffs</li>
+                <li>Name und URL der abgerufenen Datei</li>
+                <li>Website, von der aus der Zugriff erfolgt (Referrer-URL)</li>
+                <li>verwendeter Browser und ggf. das Betriebssystem Ihres Rechners sowie der Name Ihres Access-Providers</li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                3. Kontaktformular
+              </h2>
+              <p>
+                Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem 
+                Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung 
+                der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben 
+                wir nicht ohne Ihre Einwilligung weiter.
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                4. Weitergabe von Daten
+              </h2>
+              <p>
+                Eine Übermittlung Ihrer persönlichen Daten an Dritte zu anderen als den im Folgenden 
+                aufgeführten Zwecken findet nicht statt. Wir geben Ihre persönlichen Daten nur an Dritte 
+                weiter, wenn:
+              </p>
+              <ul class="ml-6 mt-2 list-disc space-y-2">
+                <li>Sie Ihre ausdrückliche Einwilligung dazu erteilt haben</li>
+                <li>die Weitergabe zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist</li>
+                <li>die Weitergabe zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist</li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                5. Betroffenenrechte
+              </h2>
+              <p>
+                Sie haben das Recht:
+              </p>
+              <ul class="ml-6 mt-2 list-disc space-y-2">
+                <li>gemäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen</li>
+                <li>gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger oder die Vervollständigung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen</li>
+                <li>gemäß Art. 17 DSGVO die Löschung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen</li>
+                <li>gemäß Art. 18 DSGVO die Einschränkung der Datenverarbeitung zu verlangen</li>
+                <li>gemäß Art. 20 DSGVO Ihre personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten</li>
+                <li>gemäß Art. 7 Abs. 3 DSGVO Ihre einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen</li>
+                <li>gemäß Art. 77 DSGVO sich bei einer Aufsichtsbehörde zu beschweren</li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                6. Datensicherheit
+              </h2>
+              <p>
+                Wir verwenden innerhalb des Website-Besuchs das verbreitete SSL-Verfahren (Secure Socket Layer) 
+                in Verbindung mit der jeweils höchsten Verschlüsselungsstufe, die von Ihrem Browser unterstützt wird. 
+                In der Regel handelt es sich dabei um eine 256 Bit Verschlüsselung. Falls Ihr Browser keine 
+                256 Bit Verschlüsselung unterstützt, greifen wir auf 128 Bit v3 Technologie zurück.
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+                7. Aktualität und Änderung dieser Datenschutzerklärung
+              </h2>
+              <p>
+                Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Januar 2025. Durch die 
+                Weiterentwicklung unserer Website und Angebote darüber oder aufgrund geänderter gesetzlicher 
+                beziehungsweise behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung 
+                zu ändern. Die jeweils aktuelle Datenschutzerklärung kann jederzeit auf der Website abgerufen werden.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <Footer />
+  </body>
+</html>
