@@ -16,16 +16,16 @@ export const siteConfig = {
   // ============================================
   navigation: {
     links: [      
-      { name: 'Screenshots', href: '#carousel' },
-      { name: 'So funktioniert\'s', href: '#how-it-works' },
-      { name: 'Vergleich', href: '#comparison' },
-      { name: 'Features', href: '#features' },
-      { name: 'Referenzen', href: '#testimonials' },
-      { name: 'FAQ', href: '#faq' },
+      { name: 'Screenshots', href: '/#carousel' },
+      { name: 'So funktioniert\'s', href: '/#how-it-works' },
+      { name: 'Vergleich', href: '/#comparison' },
+      { name: 'Features', href: '/#features' },
+      { name: 'Referenzen', href: '/#testimonials' },
+      { name: 'FAQ', href: '/#faq' },
     ],
     cta: {
       text: 'Kontakt',
-      href: '#contact',
+      href: '/#contact',
     },
   },
 
@@ -39,19 +39,19 @@ export const siteConfig = {
       {
         title: 'Produkt',
         links: [
-          { name: 'Screenshots', href: '#carousel' },
-          { name: 'So funktioniert\'s', href: '#how-it-works' },
-          { name: 'Vergleich', href: '#comparison' },
-          { name: 'Features', href: '#features' },
-          { name: 'Referenzen', href: '#testimonials' },
-          { name: 'FAQ', href: '#faq' },
+          { name: 'Screenshots', href: '/#carousel' },
+          { name: 'So funktioniert\'s', href: '/#how-it-works' },
+          { name: 'Vergleich', href: '/#comparison' },
+          { name: 'Features', href: '/#features' },
+          { name: 'Referenzen', href: '/#testimonials' },
+          { name: 'FAQ', href: '/#faq' },
         ],
       },
       {
         title: 'Unternehmen',
         links: [
           { name: 'Über uns', href: '/ueber-uns' },
-          { name: 'Kontakt', href: '#contact' },
+          { name: 'Kontakt', href: '/#contact' },
           { name: 'Impressum', href: '/impressum#impressum' },
           { name: 'Nutzungsbedingungen', href: '/impressum#nutzungsbedingungen' },
           { name: 'Datenschutzerklärung', href: '/impressum#datenschutz' },
