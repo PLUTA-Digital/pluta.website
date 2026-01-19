@@ -1,32 +1,26 @@
 export const howItWorksSteps = [
   {
     number: 1,
-    title: 'Define Your Goal',
+    title: 'Installation & Projekt anlegen',
     description:
-      'Describe what you want to automate in plain English. No technical jargon needed.',
+      'Installieren Sie das LiquiTool lokal auf Ihrem System und erstellen Sie ein neues Projekt. Alle Daten verbleiben auf Ihrer Infrastruktur.',
   },
   {
     number: 2,
-    title: 'Connect Your Tools',
+    title: 'Daten importieren',
     description:
-      'Link your existing apps and services. We support 1000+ integrations out of the box.',
+      'Importieren Sie Ihre offenen Posten (Debitoren/Kreditoren), GuV-Daten (BWA/Summen- und Saldenlisten) sowie weitere Planungsdaten per CSV/Excel.',
   },
   {
     number: 3,
-    title: 'Deploy Your Agent',
+    title: 'Planung durchführen',
     description:
-      'Our AI configures and optimizes your agent automatically. Review and launch in one click.',
+      'Planen Sie Ihre GuV, legen Sie Zahlungsströme fest und konfigurieren Sie Prämissen. Das Tool übernimmt automatisch die Berechnung und Periodisierung.',
   },
   {
     number: 4,
-    title: 'Monitor & Optimize',
+    title: 'Ergebnisse analysieren',
     description:
-      'Track performance in real-time and let your agents learn and improve continuously.',
-  },
-  {
-    number: 5,
-    title: 'Scale & Grow',
-    description:
-      "Add more agents, automate new workflows, and watch your team's productivity soar.",
+      'Analysieren Sie Ihre Liquiditätsplanung, prüfen Sie den Liquiditätsstatus und vergleichen Sie verschiedene Szenarien in übersichtlichen Auswertungen.',
   },
 ];

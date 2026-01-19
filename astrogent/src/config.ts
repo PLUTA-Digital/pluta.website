@@ -51,8 +51,8 @@ export const siteConfig = {
   // HOW IT WORKS
   // ============================================
   howItWorks: {
-    title: 'How It Works',
-    subtitle: 'Get started in minutes with our simple 5-step process',
+    title: 'So funktioniert\'s',
+    subtitle: 'Einsatzbereit innerhalb eines Tages – so einfach geht\'s',
   },
 
   // ============================================
