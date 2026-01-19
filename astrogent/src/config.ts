@@ -34,44 +34,34 @@ export const siteConfig = {
   // ============================================
   footer: {
     tagline:
-      'Intelligent automation for modern teams. Transform your workflow with AI.',
+      'Strukturierte, transparente und robuste Liquiditätsplanung – die Alternative zu fehleranfälligen Excel-Modellen.',
     columns: [
       {
-        title: 'Product',
+        title: 'Produkt',
         links: [
+          { name: 'Screenshots', href: '#carousel' },
+          { name: 'So funktioniert\'s', href: '#how-it-works' },
+          { name: 'Vergleich', href: '#comparison' },
           { name: 'Features', href: '#features' },
-          { name: 'Integrations', href: '#' },
-          { name: 'API Docs', href: '#' },
-          { name: 'Changelog', href: '#' },
+          { name: 'Referenzen', href: '#testimonials' },
+          { name: 'FAQ', href: '#faq' },
         ],
       },
       {
-        title: 'Company',
+        title: 'Unternehmen',
         links: [
-          { name: 'About Us', href: '#' },
-          { name: 'Blog', href: '#' },
-          { name: 'Careers', href: '#' },
-          { name: 'Press Kit', href: '#' },
-          { name: 'Contact', href: '#contact' },
-        ],
-      },
-      {
-        title: 'Legal',
-        links: [
-          { name: 'Privacy Policy', href: '#' },
-          { name: 'Terms of Service', href: '#' },
-          { name: 'Cookie Policy', href: '#' },
-          { name: 'Security', href: '#' },
-          { name: 'Compliance', href: '#' },
+          { name: 'Über uns', href: '/ueber-uns' },
+          { name: 'Kontakt', href: '#contact' },
+          { name: 'Impressum', href: '/impressum#impressum' },
+          { name: 'Nutzungsbedingungen', href: '/impressum#nutzungsbedingungen' },
+          { name: 'Datenschutzerklärung', href: '/impressum#datenschutz' },
         ],
       },
     ],
     social: [
-      { name: 'Twitter', href: '#', icon: 'twitter' },
-      { name: 'GitHub', href: '#', icon: 'github' },
-      { name: 'Dribbble', href: '#', icon: 'dribbble' },
-      { name: 'LinkedIn', href: '#', icon: 'linkedin' },
+      { name: 'Website', href: 'https://www.pluta.net', icon: 'website' },
+      { name: 'LinkedIn', href: 'https://www.linkedin.com/company/pluta-management-gmbh/', icon: 'linkedin' },
     ],
-    copyright: `${new Date().getFullYear()} AI Agent Platform. All rights reserved.`,
+    copyright: `${new Date().getFullYear()} PLUTA Digital GmbH. Alle Rechte vorbehalten.`,
   },
 };

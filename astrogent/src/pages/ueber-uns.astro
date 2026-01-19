@@ -1,0 +1,84 @@
+---
+import '../styles/globals.css';
+import SEO from '../components/SEO.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<!doctype html>
+<html lang="de" class="scroll-smooth">
+  <head>
+    <SEO />
+  </head>
+
+  <body class="text-mono-black bg-white font-sans antialiased">
+    <Navigation />
+    
+    <section class="relative bg-white px-4 py-20 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-4xl">
+        <h1 class="text-mono-black mb-8 text-4xl font-bold sm:text-5xl">
+          Über uns
+        </h1>
+        
+        <div class="text-mono-dark space-y-8 leading-relaxed">
+          <!-- PLUTA Digital GmbH -->
+          <div>
+            <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+              PLUTA Digital GmbH
+            </h2>
+            <p>
+              Die PLUTA Digital GmbH wurde 2024 gegründet und hat ihren Sitz in München. 
+              Mit zwei Geschäftsführern ist das Unternehmen deutschlandweit tätig und 
+              verantwortlich für die Entwicklung und den Vertrieb des PLUTA LiquiTool.
+            </p>
+          </div>
+
+          <!-- PLUTA Gruppe -->
+          <div>
+            <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+              PLUTA Gruppe
+            </h2>
+            <p>
+              Die PLUTA Gruppe wurde 1982 gegründet und zählt heute über 500 Mitarbeiter 
+              an mehr als 40 Standorten in Deutschland, Spanien und Italien. Der Schwerpunkt 
+              liegt auf Restrukturierung, Insolvenz und Transaktionen. Die PLUTA Gruppe bietet 
+              interdisziplinäre Beratung für Unternehmen in der Krise.
+            </p>
+          </div>
+
+          <!-- PLUTA LiquiTool -->
+          <div>
+            <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+              PLUTA LiquiTool
+            </h2>
+            <p>
+              Das PLUTA LiquiTool wird seit 2022 entwickelt und ist ein Controlling-Tool 
+              (keine Buchhaltungssoftware) mit Fokus auf Liquiditätsplanung auf Wochenbasis. 
+              Es bietet automatisierte Berechnung und Periodisierung sowie GuV-Planung als 
+              zentrale Datenbasis mit sauberer Überleitung von Ergebnis zur Liquidität.
+            </p>
+            <p class="mt-4">
+              Das PLUTA LiquiTool adressiert gezielt die Schwächen klassischer Excel-basierter 
+              Liquiditätsmodelle und bietet eine strukturierte, transparente und kontinuierlich 
+              weiterentwickelte Lösung für professionelle Liquiditäts- und Szenarioplanung.
+            </p>
+          </div>
+
+          <!-- Produktüberblick -->
+          <div>
+            <h2 class="text-mono-black mb-4 text-2xl font-semibold">
+              Unser Ziel
+            </h2>
+            <p>
+              Wir bieten eine strukturierte, transparente und robuste Liquiditätsplanung, 
+              die fehleranfällige Excel-Modelle ablöst. Unser Fokus liegt auf Prämissen und 
+              Inhalten statt technischer Modellpflege.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <Footer />
+  </body>
+</html>
