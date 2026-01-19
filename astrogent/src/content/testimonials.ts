@@ -1,56 +1,67 @@
 export const testimonialsData = [
   {
-    quote:
-      'This platform transformed our customer support. We automated 80% of routine inquiries and our team can focus on complex issues. Game changer!',
-    author: 'Sarah Johnson',
-    role: 'Head of Operations',
-    company: 'Stripe',
-    initials: 'SJ',
-    rating: 5,
+    name:'Möbelhersteller',
+    bullets:[
+      '150 Mitarbeiter',
+      '51 MEUR Umsatz',
+      'Insolvenzverfahren',
+      'Rollierende Liquiditätsplanung',
+      'Monatlicher Plan-Ist-Vergleich'
+    ],
+    image: '/references/ref1.jpg'
   },
   {
-    quote:
-      'The ROI was immediate. We deployed our first agent in under an hour and saved 20 hours per week. The analytics dashboard is incredibly powerful.',
-    author: 'Michael Park',
-    role: 'CTO',
-    company: 'Shopify',
-    initials: 'MP',
-    rating: 5,
+    name:'Krankenhaus',
+    bullets:[
+      '500 Mitarbeiter',
+      '45 MEUR Umsatz',
+      'Sanierungsberatung',
+      'Analyse Finanzierungsbedarf',
+      'Monatlicher Plan-Ist-Vergleich'
+    ],
+    image: '/references/ref2.jpg'
   },
   {
-    quote:
-      'Setup was surprisingly easy. We went from idea to production in less than a week. The support team is exceptional and always available.',
-    author: 'Emily Chen',
-    role: 'Product Lead',
-    company: 'Notion',
-    initials: 'EC',
-    rating: 5,
+    name:'Mode',
+    bullets:[
+      '1.900 Mitarbeiter',
+      '980 MEUR Umsatz',
+      'Operative Gesellschaften in Eigenverwaltung',
+      'Rollierende Liquiditätsplanung'      
+    ],
+    image: '/references/ref3.jpg'
   },
   {
-    quote:
-      'Our sales team uses AI agents to qualify leads and schedule meetings. Conversion rates increased by 45% in the first month. Absolutely worth it.',
-    author: 'David Martinez',
-    role: 'VP of Sales',
-    company: 'HubSpot',
-    initials: 'DM',
-    rating: 5,
+    name:'Personaldienstleister',
+    bullets:[
+      '550 Mitarbeiter',
+      '40 MEUR Umsatz',
+      'Eigenverwaltung',
+      'Rollierende Liquiditätsplanung',
+      'Monatlicher Plan-Ist-Vergleich'
+    ],
+    image: '/references/ref4.jpg'
   },
   {
-    quote:
-      "We scaled our support from 50 to 5,000 daily conversations without hiring additional staff. The AI understands context better than any tool we've tried.",
-    author: 'Rachel Green',
-    role: 'Customer Success Director',
-    company: 'Intercom',
-    initials: 'RG',
-    rating: 5,
+    name:'Ingenierusdienstleistungen',
+    bullets:[
+      '60 Mitarbeiter',
+      '4 MEUR Umsatz',
+      'Insolvenzverfahren',
+      'Rollierende Liquiditätsplanung',
+      'Monatlicher Plan-Ist-Vergleich'
+    ],
+    image: '/references/ref5.jpg'
   },
   {
-    quote:
-      'Integration with our existing tools was seamless. The agents handle everything from data entry to complex workflows. Our team productivity doubled.',
-    author: 'James Wilson',
-    role: 'Engineering Manager',
-    company: 'Linear',
-    initials: 'JW',
-    rating: 5,
-  },
+    name:'Konsumgüter',
+    bullets:[
+      '16 Mitarbeiter',
+      '2 MEUR Umsatz',
+      'Sanierungsberatung',
+      'Rollierende Liquiditätsplanung',
+      'Monatlicher Plan-Ist-Vergleich'
+    ],
+    image: '/references/ref6.jpg'
+  }
 ];
