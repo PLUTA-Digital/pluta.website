@@ -59,8 +59,8 @@ export const siteConfig = {
   // TESTIMONIALS
   // ============================================
   testimonials: {
-    title: 'Loved by Teams Worldwide',
-    subtitle: 'See what our customers have to say about AI Agent Platform',
+    title: 'Bewährte Lösungen für Unternehmen',
+    subtitle: 'Von Möbelherstellern bis Krankenhäusern – unsere Kunden vertrauen auf LiquiTool',
     companyLogos: [
       'TECHFLOW',
       'INNOVATE',
