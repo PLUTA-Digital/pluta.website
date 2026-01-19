@@ -27,26 +27,6 @@ export const siteConfig = {
   },
 
   // ============================================
-  // FEATURES SECTION
-  // ============================================
-  features: {
-    title: 'Kernfunktionalitäten',
-    subtitle:
-      'Strukturierte, transparente und robuste Liquiditätsplanung – die Alternative zu fehleranfälligen Excel-Modellen',
-    items: [
-      { icon: 'chart', title: 'Liquiditätsplanung' },
-      { icon: 'code', title: 'Offene-Posten-Planung' },
-      { icon: 'layers', title: 'GuV-Planung als Basis' },
-      { icon: 'zap', title: 'Automatisierte Überleitung' },
-      { icon: 'brush', title: 'Szenario- und Vergleichsrechnungen' },
-      { icon: 'shield', title: 'Lokale Anwendung' },
-      { icon: 'clock', title: 'Schnelle Implementierung' },
-      { icon: 'lightning', title: 'Transparente Darstellung' },
-      { icon: 'chat', title: 'Flexible Detailtiefe' },
-    ],
-  },
-
-  // ============================================
   // HOW IT WORKS
   // ============================================
   howItWorks: {
