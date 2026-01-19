@@ -27,37 +27,6 @@ export const siteConfig = {
   },
 
   // ============================================
-  // HOW IT WORKS
-  // ============================================
-  howItWorks: {
-    title: 'So funktioniert\'s',
-    subtitle: 'Einsatzbereit innerhalb eines Tages – so einfach geht\'s',
-  },
-
-  // ============================================
-  // TESTIMONIALS
-  // ============================================
-  testimonials: {
-    title: 'Bewährte Lösungen für Unternehmen',
-    subtitle: 'Von Möbelherstellern bis Krankenhäusern – unsere Kunden vertrauen auf LiquiTool',
-    companyLogos: [
-      'TECHFLOW',
-      'INNOVATE',
-      'DATASTREAM',
-      'CLOUDSYNC',
-      'NEXUSAI',
-    ],
-  },
-
-  // ============================================
-  // FAQ
-  // ============================================
-  faq: {
-    title: 'Frequently Asked Questions',
-    subtitle: 'Everything you need to know about AI Agent Platform',
-  },
-
-  // ============================================
   // CONTACT
   // ============================================
   contact: {
