@@ -20,6 +20,11 @@ export const faqItems = [
       'Der Nutzer entscheidet selbst über die Granularität der Nutzung. Für eilige Zwecke kann das Tool erfahrungsgemäß bereits innerhalb eines Tages das Erstellen von Liquiditätsplanungen ermöglichen.',
   },
   {
+    question: 'Wieso gibt es keine Preisübersicht?',
+    answer:
+      'Wir versuchen beim Pricing des LiquiTools die individuelle Komplexität und Finanzkraft des Users zu berücksichtigen. Diese Variabilität kann nicht in einem Standard-Preismodell abgebildet werden. Dadurch können kleine und große Unternehmen gleichermaßen von der Funktionalität profitieren.',
+  },
+  {
     question: 'Kann ich individuelle Wünsche zur Funktionalität einbringen?',
     answer:
       'Ja, unbedingt. Wir versuchen stets, Funktionsanforderungen zeitnah und zielgerichtet umzusetzen.',

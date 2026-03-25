@@ -6,7 +6,7 @@ export const testimonialsData = [
       '51 MEUR Umsatz',
       'Insolvenzverfahren',
       'Rollierende Liquiditätsplanung',
-      'Wöchentliche Cashflow-Analysen'
+      'Wöchentlicher Plan-Ist-Vergleich'
     ],
     image: '/references/ref1.jpg'
   },
@@ -17,7 +17,8 @@ export const testimonialsData = [
       '45 MEUR Umsatz',
       'Sanierungsberatung',
       'Analyse Finanzierungsbedarf',
-      'Strategische Restrukturierung'
+      'Rollierende Liquiditätsplanung',
+      'Monatlicher Plan-Ist-Vergleich'
     ],
     image: '/references/ref2.jpg'
   },
@@ -26,8 +27,8 @@ export const testimonialsData = [
     bullets:[
       '1.900 Mitarbeiter',
       '980 MEUR Umsatz',
-      'Operative Gesellschaften in Eigenverwaltung',
-      'Konzernweite Liquiditätssteuerung'      
+      'Planung operativer Gesellschaften in Eigenverwaltung',
+      'Rollierende Liquiditätsplanung'
     ],
     image: '/references/ref3.jpg'
   },
@@ -37,8 +38,8 @@ export const testimonialsData = [
       '550 Mitarbeiter',
       '40 MEUR Umsatz',
       'Eigenverwaltung',
-      'Tägliche Liquiditätsüberwachung',
-      'Frühwarnsystem für Engpässe'
+      'Rollierende Liquiditätsplanung',
+      'Monatlicher Plan-Ist-Vergleich'
     ],
     image: '/references/ref4.jpg'
   },
@@ -48,8 +49,8 @@ export const testimonialsData = [
       '60 Mitarbeiter',
       '4 MEUR Umsatz',
       'Insolvenzverfahren',
-      'Projektbezogene Liquiditätsplanung',
-      'Szenarioanalysen und Prognosen'
+      'Rollierende Liquiditätsplanung',
+      'Monatlicher Plan-Ist-Vergleich'      
     ],
     image: '/references/ref5.jpg'
   },
@@ -59,8 +60,8 @@ export const testimonialsData = [
       '16 Mitarbeiter',
       '2 MEUR Umsatz',
       'Sanierungsberatung',
-      'Kurzfristige Finanzplanung',
-      'Umsatz- und Kostenprognosen'
+      'Rollierende Liquiditätsplanung',
+      'Monatlicher Plan-Ist-Vergleich'
     ],
     image: '/references/ref6.jpg'
   }

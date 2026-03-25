@@ -1,26 +1,32 @@
 export const howItWorksSteps = [
   {
     number: 1,
-    title: 'Installation & Projekt anlegen',
+    title: 'Installation',
     description:
       'Installieren Sie das LiquiTool lokal auf Ihrem System und erstellen Sie ein neues Projekt. Alle Daten verbleiben auf Ihrer Infrastruktur.',
   },
   {
     number: 2,
-    title: 'Daten importieren',
+    title: 'Datenimport',
     description:
       'Importieren Sie Ihre offenen Posten (Debitoren/Kreditoren), GuV-Daten (BWA/Summen- und Saldenlisten) sowie weitere Planungsdaten per CSV/Excel.',
   },
   {
     number: 3,
-    title: 'Planung durchführen',
+    title: 'Planung',
     description:
-      'Planen Sie Ihre GuV, legen Sie Zahlungsströme fest und konfigurieren Sie Prämissen. Das Tool übernimmt automatisch die Berechnung und Periodisierung.',
+      'Planen Sie Ihre GuV direkt im Tool oder mittels Datenimport, legen Sie Zahlungsströme fest und setzen Sie die Prämissen. Das Tool übernimmt automatisch die Berechnung und Periodisierung.',
   },
   {
     number: 4,
-    title: 'Ergebnisse analysieren',
+    title: 'Analyse',
     description:
-      'Analysieren Sie Ihre Liquiditätsplanung, prüfen Sie den Liquiditätsstatus und vergleichen Sie verschiedene Szenarien in übersichtlichen Auswertungen.',
+      'Prüfen Sie den Liquiditätsstatus, analysieren Sie Ihre Planung und vergleichen Sie verschiedene Szenarien in übersichtlichen Auswertungen.',
+  },
+  {
+    number: 5,
+    title: 'Aktualisierung',
+    description:
+      'Führen Sie einen Plan-Ist-Vergleich durch, aktualisieren Sie die Datenimports und bei Bedarf die Prämissen. Alles andere übernimmt das LiquiTool automatisiert.',
   },
 ];
