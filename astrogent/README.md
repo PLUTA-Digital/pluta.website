@@ -1,57 +1,81 @@
-# AI Agent Landing Page
+# PLUTA LiquiTool Landing Page (Astro)
 
-![Demo](public/screenshot.jpeg)
+Diese Anwendung ist die Landing Page für das PLUTA LiquiTool (Liquiditaetsplanung ohne Excel-Chaos). Sie ist als Astro-Seite mit Tailwind CSS umgesetzt und besteht aus modularen Sections (Hero, Screenshots/Carousel, How-it-works, Vergleich, Kernfunktionalitaeten, Referenzen, FAQ, Kontakt und Footer).
 
-A modern, production-ready landing page template for AI and SaaS products. Built with Astro and Tailwind CSS.
+## Live-URL / Domain
 
-## Features
+Die Seite ist unter der Projekt-Domain `https://liquitool.pluta.net` vorgesehen.
 
-- ⚡️ **Astro 5** - Fast, static site generation
-- 🎨 **Tailwind CSS 4** - Modern styling with CSS-first config
-- 📱 **Fully Responsive** - Mobile-first design
-- ♿ **Accessible** - Semantic HTML & ARIA compliant
-- 🎭 **Smooth Animations** - Scroll-triggered effects
-- 🎯 **SEO Ready** - Meta tags & Open Graph
-- 🧩 **Modular Components** - Easy to customize
+## Screenshots und Referenzen (Assets)
 
-## Sections
+Die Screenshot-Carousel erwartet Bilder in:
 
-- Hero with stats
-- Features grid (9 cards)
-- How it works (4 steps)
-- Testimonials (6 with company logos)
-- Pricing tiers (3 plans)
-- FAQ accordion (6 questions)
-- Contact form
-- Footer
+- `public/screenshots/`
 
-## Quick Start
+Aktuell werden (in `src/components/Carousel.astro`) diese Dateinamen referenziert:
+
+- `screen1.jpg` ... `screen9.jpg`
+- `vorkassen-output.jpg` (optional zusaetzlicher Slide fuer Vorkassen Output)
+
+Referenzbilder (Testimonials) werden erwartet in:
+
+- `public/references/` (z.B. `ref1.jpg` ... `ref6.jpg`)
+
+## Netlify Forms (Kontaktformular)
+
+Das Kontaktformular ist in `src/components/Contact.astro` implementiert und ist fuer Netlify Forms vorbereitet:
+
+- `name="contact"`
+- `data-netlify="true"`
+- `method="post"`
+- Honeypot: `netlify-honeypot="bot-field"` (Feld `bot-field`)
+- Redirect nach Submit: `action="/form-success"` (Route existiert unter `src/pages/form-success.astro`)
+
+Hinweis: Auf Netlify muss das Formular mit dem Formnamen `contact` erfasst werden (wenn Netlify es nicht automatisch erkennt).
+
+## Sections / Anchor-Links
+
+Die Navigation nutzt u.a. folgende Anchors:
+
+- `/#carousel` (Screenshots)
+- `/#how-it-works` (So funktioniert's)
+- `/#comparison` (Vergleich)
+- `/#features` (Kernfunktionalitaeten)
+- `/#testimonials` (Referenzen)
+- `/#faq` (FAQ)
+- `/#contact` (Kontaktformular)
+
+## Lokal starten
 
 ```bash
-# Install dependencies
 npm install
-
-# Start dev server
 npm run dev
+```
 
-# Build for production
+## Produktion bauen
+
+```bash
 npm run build
 ```
 
-## Customization
+## Inhalte anpassen
 
-Edit content in:
-
-- `src/config.ts` - Site configuration
-- `src/content/*.ts` - Features, testimonials, FAQ
-- `src/styles/globals.css` - Colors & animations
-
-## Deploy
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new)
-
-Works on Replit, Vercel, Netlify, and GitHub Pages.
+- `src/config.ts` - Navigation, Footer-Links und allgemeine Site-Konfiguration
+- `src/content/*.ts` - Texte fuer Features, Testimonials und FAQ
+- `src/components/*` - Layout/Sections (z.B. Hero, Carousel, Comparison, Contact)
 
 ## License
 
-[MIT](LICENSE)
+Diese Landing Page ist **nicht Open Source**.
+
+## Proprietäre Lizenz (PLUTA)
+
+- Die **PLUTA-spezifischen Inhalte**, Texte, Design/Branding und Assets (z.B. Screenshots/Referenzen) sind Eigentum von **PLUTA Digital GmbH** und werden geschützt gehalten.
+- Die **Nutzung** ist für den Betrieb/Anpassungen dieser PLUTA-Website vorgesehen.
+- Eine **Weiterverbreitung** (z.B. Publikation des Repos oder der Inhalte außerhalb des PLUTA-Kontexts) ist nicht gestattet.
+
+## Drittlizenzen
+
+Die verwendeten Drittsoftware-Komponenten wie **Astro**, **Tailwind CSS** etc. sind unter ihren jeweiligen Lizenzen lizensiert. Details findest du in den entsprechenden Dependency-Quellen/`node_modules`.
+
+Siehe auch: `LICENSE` in diesem Ordner.

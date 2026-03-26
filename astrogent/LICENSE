@@ -1,0 +1,20 @@
+PLUTA LiquiTool Landing Page - Proprietary License
+
+Copyright (c) 2026 PLUTA Digital GmbH. All rights reserved.
+
+1) Not Open Source
+This repository (including its PLUTA-specific content, texts, design/branding, and assets) is not open source.
+No license is granted for redistribution to third parties or publication outside the PLUTA website context.
+
+2) Allowed Use
+You may use and modify the code and content solely for the purpose of operating and maintaining the PLUTA LiquiTool landing page.
+
+3) Third-Party Software
+Third-party components used by this project (e.g., Astro, Tailwind CSS, Glide, Heroicons, etc.) remain subject to their respective licenses.
+Those licenses are provided by the respective upstream projects and may also be referenced in `node_modules`.
+
+4) Attribution
+Maintain all copyright and license notices for third-party dependencies.
+
+If you need rights beyond this, contact PLUTA Digital GmbH.
+
