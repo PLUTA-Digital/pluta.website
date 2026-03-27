@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 
-const siteUrl = 'https://liquitool.pluta.net';
+const siteUrl = 'https://pluta-liquitool.net';
 
 const pages = [
   { url: '', changefreq: 'weekly', priority: 1.0 },
