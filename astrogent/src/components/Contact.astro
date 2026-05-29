@@ -141,6 +141,21 @@ import { Icon } from 'astro-icon/components';
 
           <div>
             <label
+              for="phone"
+              class="text-mono-black mb-2 block text-sm font-semibold"
+              >Telefonnummer <span class="text-mono-gray font-normal">(optional)</span></label
+            >
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              class="border-mono-lighter w-full rounded-lg border px-4 py-3"
+              placeholder="+49 89 12345678"
+            />
+          </div>
+
+          <div>
+            <label
               for="company"
               class="text-mono-black mb-2 block text-sm font-semibold"
               >Unternehmen</label
